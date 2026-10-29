@@ -8,7 +8,7 @@ Exercises
 4. Complete triangle.
 5. Add width parameter.
 """
-
+import turtle
 from turtle import *
 
 from freegames import vector
@@ -37,9 +37,20 @@ def square(start, end):
 
 
 def circle(start, end):
-    """Draw circle from start to end."""
-    pass  # TODO
+    """Dibuja un circulo con centro en start y borde en end."""
+    radius = abs(end - start)
+    if radius == 0:
+        return
 
+    # Coloca la tortuga debajo del centro para iniciar el circulo.
+    up()
+    goto(start.x, start.y - radius)
+    setheading(0)
+    down()
+
+    begin_fill()
+    turtle.circle(radius)
+    end_fill()
 
 def rectangle(start, end):
     """Draw rectangle from start to end."""
