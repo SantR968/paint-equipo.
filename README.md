@@ -1,3 +1,7 @@
+main
+Cambio 1: Agrege el codigo de la fucion rectangle.
+Cambio 2: Agrege el codigo de la uncion triangle, solo funciona para un triangulo equilatero.
+
 # Paint
 
 Programa de dibujo desarrollado en Python con Turtle y Free Python Games, basado en el código original de Grant Jenks.
@@ -16,12 +20,12 @@ Dibujar figuras geométricas mediante dos clics y seleccionar sus colores con el
 
 Desde la carpeta del repositorio, crear y activar un ambiente virtual en Windows:
 
-```bat
+bat
 py -m venv .venv
 .venv\Scripts\activate
 python -m pip install freegames
 python paint.py
-```
+
 
 ## Controles
 
@@ -78,3 +82,4 @@ Se utilizó un repositorio principal y un fork, sin acceso de colaborador. El pr
 
 Grant Jenks, Free Python Games:
 https://grantjenks.com/docs/freegames/paint.html
+main
